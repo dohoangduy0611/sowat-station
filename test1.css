@@ -1,0 +1,328 @@
+@font-face {
+  font-family: Muli-BlackItalic;
+  src: url("font/Muli-BlackItalic.ttf") format('truetype');
+}
+@font-face {
+  font-family: Muli-Bold;
+  src: url("font/Muli-Bold.ttf") format('truetype');
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-family: Muli-Bold;
+  font-size: 20px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* day la KV nhe */
+.kv {
+  background-image: url("image/box-1.png");
+  width: 100%;
+  padding-top: 66.4%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  position: relative;
+}
+
+.kv .content_in_kv {
+  position: absolute;
+  top: 34%;
+  right: 11%;
+  font-family: Muli-Bold;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #fc4dff;
+}
+
+.after_menu {
+  background-color: #ffffff;
+  width: 100%;
+  padding-top: 66.4%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  visibility: hidden;
+}
+
+.after_menu:target {
+  visibility: visible;
+}
+
+.after_menu .banner_sowat_station_container{
+  width: 8%;
+  top: 10%;
+  left: 10%;
+  position: absolute;
+}
+
+.after_menu .banner_sowat_station {
+  background-image: url("image/box_3.png");
+  width: 100%;
+  padding-top: 122.56%;
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: contain;
+  position: relative;
+}
+
+.after_menu .close_container {
+  width: 4%;
+  top: 10%;
+  right: 7%;
+  position: absolute;
+}
+
+.after_menu .close {
+  background-image: url("image/box_14.png");
+  width: 100%;
+  padding-top: 66.67%;
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: contain;
+  position: relative;
+}
+
+.after_menu .close .click {
+  width: 100%;
+  padding-top: 66.67%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.after_menu .menu_detailed {
+  width: 65%;
+  right: 8.5%;
+  top: 27%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+
+.menu_detailed .menu_detailed_1 {
+  background-image: url("image/box_6.png");
+  width: 100%;
+  padding-top: 8%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top right;
+  position: relative;
+}
+
+.menu_detailed .menu_detailed_1:hover {
+  background-image: url("image/box_7.png");
+  width: 100%;
+  padding-top: 8%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top right;
+  position: relative;
+}
+
+.menu_detailed .menu_detailed_2 {
+  background-image: url("image/box_8.png");
+  width: 100%;
+  padding-top: 8%;
+  margin-top: 1%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top right;
+  position: relative;
+}
+
+.menu_detailed .menu_detailed_2:hover {
+  background-image: url("image/box_9.png");
+  width: 100%;
+  padding-top: 8%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top right;
+  position: relative;
+}
+
+.menu_detailed .menu_detailed_3 {
+  background-image: url("image/box_10.png");
+  width: 100%;
+  padding-top: 8%;
+  margin-top: 1%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top right;
+  position: relative;
+}
+
+.menu_detailed .menu_detailed_3:hover {
+  background-image: url("image/box_11.png");
+  width: 100%;
+  padding-top: 8%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top right;
+  position: relative;
+}
+
+.menu_detailed .menu_detailed_4 {
+  background-image: url("image/box_12.png");
+  width: 100%;
+  padding-top: 8%;
+  margin-top: 1%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top right;
+  position: relative;
+}
+
+.menu_detailed .menu_detailed_4:hover {
+  background-image: url("image/box_13.png");
+  width: 100%;
+  padding-top: 8%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top right;
+  position: relative;
+}
+
+.menu_detailed .click {
+  width: 100%;
+  padding-top: 8%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.kv .banner_sowat_station_container{
+  width: 8%;
+  top: 10%;
+  left: 10%;
+  position: absolute;
+}
+
+.kv .banner_sowat_station {
+  background-image: url("image/box_3.png");
+  width: 100%;
+  padding-top: 122.56%;
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: contain;
+  position: relative;
+}
+
+.kv .menu_container{
+  width: 4%;
+  top: 10%;
+  right: 7%;
+  position: absolute;
+}
+
+.kv .menu {
+  background-image: url("image/box_4.png");
+  width: 100%;
+  padding-top: 66.67%;
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: contain;
+  position: relative;
+}
+
+.kv .menu_container .menu .click {
+  width: 100%;
+  padding-top: 66.67%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+/* day la intro nhe */
+.intro_text {
+  background-color: #fff5b3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+}
+
+.intro_text .intro_text_1 {
+  width: 50%;
+  text-align: center;
+  font-family: Muli-Bold;
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-top: 3%;
+}
+
+.intro_text_1 span {
+  color: #7b66ff;
+  font-family: Muli-BlackItalic;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+.intro_text .intro_text_2 {
+  width: 40%;
+  text-align: center;
+  font-family: Muli-Bold;
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-top: 1.5%;
+  margin-bottom: 3%;
+}
+
+/* day la picture nhe */
+.picture {
+  background-image: url("image/box_5.png");
+  width: 100%;
+  padding-top: 49.79%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  position: relative;
+}
+
+/* content cuoi cung nhe */
+.content_end {
+  background-color: #7b66ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+}
+
+.content_end_1 {
+  width: 50%;
+  text-align: center;
+  font-family: Muli-Bold;
+  font-weight: bold;
+  font-size: 1em;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  color: #ffffff;
+}
