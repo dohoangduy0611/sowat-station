@@ -52,13 +52,16 @@ body {
 .after_menu {
   background-color: #ffffff;
   width: 100%;
-  padding-top: 66.4%;
-  position: absolute;
+  /* padding-top: 66.4%; */
+  height: 100vh;
+  /* position: absolute; */
+  position: fixed;
   top: 0;
   right: 0;
   left: 0;
   bottom: 0;
   visibility: hidden;
+  z-index: 1;
 }
 
 .after_menu:target {
