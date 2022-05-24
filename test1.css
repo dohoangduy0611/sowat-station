@@ -329,3 +329,67 @@ body {
   margin-bottom: 3%;
   color: #ffffff;
 }
+
+  @media screen and (max-width:1000px) {
+      .kv .content_in_kv {
+        font-size: 1.1em;
+      }
+      .intro_text .intro_text_1 {
+        width: 70%;
+      }
+      .intro_text .intro_text_2 {
+        width: 60%;
+      }
+  }
+
+  @media screen and (max-width:768px) {
+      .kv .content_in_kv {
+        font-size: 0.9em;
+      }
+      .intro_text .intro_text_1 {
+        width: 70%;
+        font-size: 1em;
+      }
+      .intro_text .intro_text_2 {
+        width: 60%;
+        font-size: 1em;
+      }
+      .content_end_1 {
+        width: 70%;
+        font-size: 0.9em;
+  }
+
+  @media screen and (max-width:600px) {
+      .kv .content_in_kv {
+        font-size: 0.8em;
+      }
+      .intro_text .intro_text_1 {
+        width: 80%;
+        font-size: 0.9em;
+      }
+      .intro_text .intro_text_2 {
+        width: 70%;
+        font-size: 0.9em;
+      }
+      .content_end_1 {
+        width: 70%;
+        font-size: 0.8em;
+  }
+
+  @media screen and (max-width:480px) {
+      .kv .content_in_kv {
+        font-size: 0.6em;
+      }
+      .intro_text .intro_text_1 {
+        width: 80%;
+        font-size: 0.9em;
+      }
+      .intro_text .intro_text_2 {
+        width: 70%;
+        font-size: 0.9em;
+      }
+      .content_end_1 {
+        width: 90%;
+        font-size: 0.8em;
+        margin-top: 5%;
+  }
